@@ -1,15 +1,85 @@
-.page {
-  min-width: 1100px;
+/* .page {
+  min-width: 1100px; */
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
+  /* max-width: 1600px; */
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* выше для экранов больше 1600px отцентрировали весь контент */
+  /* font-family: "Helvetica Neue", Arial, sans-serif;
+} */
+
+.page {
   font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 1920px;
+  min-width: 1200px;
 }
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #000;
+  height: 90px;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo__image {
+  width: 54px;
+}
+
+.logo__text {
+  padding: 3px 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  font-weight: 400;
+  line-height: 16.8px;
+  background-color: #4a90e2;
+}
+
+.nav {
+  width: 368px;
+  display: flex;
+  justify-content: space-between;
+  font-family: PT Sans, Arial, sans-serif;
+}
+.nav_place_header {
+}
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 18.12px;
+}
+.search-form {
+  
+}
+
+.header__search-form {
+}
+
+.search-form__icon {
+  
+}
+
+
+.search-form__button {
+  background-color: #000;
+  border: none;
+  width: 16px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.search-form__input {
+
+}
+
+/* .header {
   position: relative;
   display: flex;
   align-items: center;
@@ -17,11 +87,11 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  overflow: hidden;
+  overflow: hidden; */
   /* выше установили ограничения для секции */
-}
+/* } */
 
-.logo {
+/* .logo {
   width: 183px;
   z-index: 3;
 }
@@ -69,10 +139,10 @@
   height: 608px;
   z-index: 2;
   object-fit: cover;
-}
+} */
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+/* .header__square-pic {
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
@@ -149,9 +219,9 @@
   margin: 20px auto 0;
   position: relative;
   z-index: 1;
-}
+} */
 
-.table {
+/* .table {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -241,10 +311,10 @@
 
 .table_theme_dark {
   color: #fff;
-}
+} */
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/* .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -333,4 +403,4 @@
 .footer__column-link {
   color: #fff;
   text-decoration: none;
-}
+} */

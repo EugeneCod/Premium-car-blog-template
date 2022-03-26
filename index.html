@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
-  <title>Научиться учиться</title>
+  <title>Premium car blog template</title>
 </head>
 
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a href="#" class="header__link">Узнать &rarr;</a></p>
-      <img class="header__main-illustration" src="./images/header-image.png"
-        alt="Фрагмент картины Решетникова &laquo;Опять двойка&raquo;">
-      <div class="header__square-pic"></div>
+      <a class="logo" href="#">
+        <img class="logo__image" src="./images/icons/Premium.png" alt="Premium">
+        <span class="logo__text">car</span>
+      </a>
+      <nav class="nav nav_place_header">
+        <a href="#" class="nav__link">Home</a>
+        <a href="#" class="nav__link">Recipes</a>
+        <a href="#" class="nav__link">Article </a>
+        <a href="#" class="nav__link">Contact</a>
+        <a href="#" class="nav__link">Purchase</a>
+      </nav>
+      <form class="search-form header__search-form">
+        <button type="submit" class="search-form__button">
+          <img class="search-form__icon" src="./images/icons/Shape.png" alt="magnifying glass">
+        </button>
+        <input class="search-form__input" type="text" name="search" placeholder="search"/>
+      </form>
     </header>
 
     <main class="content">
