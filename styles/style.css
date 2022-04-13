@@ -11,8 +11,8 @@
 
 .page {
   font-family: "PT Sans", Arial, sans-serif;
-  max-width: 1920px;
-  min-width: 1200px;
+  /* max-width: 1920px;
+  min-width: 1200px; */
   margin: 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -40,9 +40,9 @@
   justify-items: center;
   background-color: #000;
   height: 90px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  /* position: sticky; */
+  /* top: 0; */
+  /* z-index: 1; */
   column-gap: 1em;
   justify-content: space-evenly;
 }
