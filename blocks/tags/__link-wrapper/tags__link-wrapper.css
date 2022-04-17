@@ -1,0 +1,8 @@
+.tags__link-wrapper {
+  margin: 0 10px 20px 0;
+  height: fit-content;
+}
+
+.tags__link-wrapper:last-child {
+  margin: 0;
+}

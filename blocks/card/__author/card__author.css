@@ -1,0 +1,7 @@
+.card__author {
+  min-width: 165px;
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  margin: 0;
+}

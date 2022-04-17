@@ -1,0 +1,9 @@
+.footer-bottom__copiright {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  grid-column: 2/3;
+  color: #fff;
+  margin: 0;
+}

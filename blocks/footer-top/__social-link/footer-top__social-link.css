@@ -1,0 +1,17 @@
+.footer-top__social-link {
+  display: block;
+  height: 34px;
+  width: 34px;
+  background-color: #373737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-top__social-link:hover {
+  box-shadow: 0 0 7px #666;
+}
+
+.footer-top__social-link:active {
+  box-shadow: 0 0 2px #666;
+}

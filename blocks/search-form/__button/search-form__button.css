@@ -1,0 +1,11 @@
+.search-form__button {
+  background-color: #000;
+  border: none;
+  width: 16px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.search-form__button:hover {
+  cursor: pointer;
+}

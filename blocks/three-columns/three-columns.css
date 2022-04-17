@@ -1,0 +1,19 @@
+.three-columns {
+  min-width: 1200px;
+  padding: 40px 0 75px;
+  grid-column: 2/5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* repeat(auto-fill, minmax(340px, 1fr)); */
+  gap: 28px;
+  grid-template-rows: 265px 265px;
+  grid-auto-rows: 265px;
+}
+
+@media (max-width:1231px) {
+  .three-columns {
+    grid-column: 2/4;
+    min-width: 906px;
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}

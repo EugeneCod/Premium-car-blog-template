@@ -1,0 +1,11 @@
+.page-switcher {
+  width: 50%;;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 80px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: 40px;
+  gap: 10px;
+}

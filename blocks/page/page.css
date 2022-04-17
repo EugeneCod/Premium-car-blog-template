@@ -1,0 +1,9 @@
+.page {
+  font-family: "PT Sans", Arial, sans-serif;
+  /* max-width: 1920px;*/
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  /* align-items: center; */
+}

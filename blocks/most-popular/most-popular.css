@@ -1,0 +1,10 @@
+.most-popular {
+  grid-column: 2/5;
+  padding-bottom: 80px;
+}
+
+@media (max-width:1231px) {
+  .most-popular {
+    grid-column: 2/4;
+  } 
+}

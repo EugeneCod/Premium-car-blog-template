@@ -1,0 +1,7 @@
+.card_place_footer-top {
+  margin-bottom: 25px;
+}
+
+.card_place_footer-top:last-child {
+  margin-bottom: 0;
+}

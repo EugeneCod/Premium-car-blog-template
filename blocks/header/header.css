@@ -1,0 +1,21 @@
+.header {
+  grid-column: 1/6;
+  /* grid-row: 1; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  /* justify-items: center; */
+  background-color: #000;
+  min-height: 90px;
+  /* position: sticky; */
+  /* top: 0; */
+  /* z-index: 1; */
+  column-gap: 1em;
+  justify-content: space-evenly;
+}
+
+/* @media (max-width:946px) {
+  .header {
+    
+  } 
+} */

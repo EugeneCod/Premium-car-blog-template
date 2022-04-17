@@ -1,0 +1,9 @@
+.instagram {
+  padding-bottom: 60px;
+}
+
+@media (max-width:1231px) {
+  .instagram {
+    grid-row: 6/11;
+  } 
+}

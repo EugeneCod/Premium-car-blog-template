@@ -1,0 +1,11 @@
+.nav {
+  width: 368px;
+  display: flex;
+  justify-content: space-between;
+  font-family: PT Sans, Arial, sans-serif;
+}
+
+.nav_place_header {
+  grid-column: 3/4;
+  justify-self: center;
+}

@@ -1,0 +1,4 @@
+.logo_place_header {
+  grid-column: 2/3;
+  justify-self: start;
+}

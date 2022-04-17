@@ -1,0 +1,10 @@
+.card__text_place_large-card {
+  position: absolute;
+  width: 90%;
+  bottom: -27%;
+  left: 5%;
+  padding: 30px 86px 30px 30px;
+  display: block;
+  height: auto;
+  box-shadow: 0 0 5px -2px gray;
+}

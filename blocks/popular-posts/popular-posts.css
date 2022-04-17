@@ -1,0 +1,7 @@
+
+@media (max-width:1231px) {
+  .popular-posts {
+    grid-row: 1/12;
+    
+  } 
+}

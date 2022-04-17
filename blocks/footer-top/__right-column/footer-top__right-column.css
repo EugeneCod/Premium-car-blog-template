@@ -1,0 +1,9 @@
+.footer-top__right-column {
+  grid-column: 4/5;
+}
+
+@media (max-width:1231px) {
+  .footer-top__right-column {
+    display: none;
+  } 
+}

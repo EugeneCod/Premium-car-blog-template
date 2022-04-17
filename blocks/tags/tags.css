@@ -1,0 +1,9 @@
+.tags {
+  padding-bottom: 65px;
+}
+
+@media (max-width:1231px) {
+  .tags {
+    grid-row: 12/15;
+  } 
+}

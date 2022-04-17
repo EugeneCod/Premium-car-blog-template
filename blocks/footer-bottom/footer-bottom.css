@@ -1,0 +1,7 @@
+.footer-bottom {
+  min-height: 94px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #000;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 18.12px;
+  font-size: 14px;
+  font-weight: 400;
+  /* box-shadow: 2px 0px 0px 0px #666; */
+}
+
+.nav__link:hover {
+  filter: drop-shadow(0px 0px 2px #fff);
+}
+
+.nav__link:active {
+  color: #AEB3BB;
+}

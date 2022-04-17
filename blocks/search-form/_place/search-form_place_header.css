@@ -1,0 +1,4 @@
+.search-form_place_header {
+  grid-column: 4/5;
+  justify-self: end;
+}
