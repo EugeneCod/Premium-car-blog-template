@@ -3,6 +3,9 @@
 @import url(../blocks/link-effect/link-effect.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__body/header__body.css);
+
+@import url(../blocks/container/container.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -12,6 +15,7 @@
 
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/_place/nav_place_footer-bottom.css);
+@import url(../blocks/nav/_place/nav_place_header.css);
 @import url(../blocks/nav/__link/nav__link.css);
 
 @import url(../blocks/search-form/search-form.css);
