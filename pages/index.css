@@ -4,6 +4,8 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__body/header__body.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger-item/header__burger-item.css);
 
 @import url(../blocks/container/container.css);
 
@@ -25,6 +27,8 @@
 @import url(../blocks/search-form/__input/search-form__input.css);
 
 @import url(../blocks/three-columns/three-columns.css);
+
+@import url(../blocks/main-content/main-content.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_height/card_height_2col.css);
