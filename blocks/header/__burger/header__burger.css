@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width:804px) {
+@media (max-width:852px) {
   .header__burger {
     display: block;
     position: relative;

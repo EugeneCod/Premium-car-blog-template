@@ -1,6 +1,4 @@
 .footer-top {
   background-color: #171717;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
   padding: 65px 0 0 0;
 }

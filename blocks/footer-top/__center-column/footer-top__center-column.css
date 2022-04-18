@@ -1,4 +1,10 @@
 .footer-top__center-column {
-  grid-column: 3/4;
-  padding-right: 129px;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+@media (max-width:1231px) {
+  .footer-top__center-column {
+  
+  } 
 }

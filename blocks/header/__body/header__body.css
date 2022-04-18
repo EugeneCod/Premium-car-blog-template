@@ -1,7 +1,18 @@
 .header__body {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-content: center;
-  height: 100%;
+  align-content: center; */
+  /* height: 100%; */
   position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+@media (max-width:1231px) {
+  .header__body {
+    height: 70px;
+  } 
 }

@@ -1,4 +1,12 @@
 .search-form {
   display: flex;
   width: 150px;
+  z-index: 1;
+
+}
+
+@media (max-width: 852px) {
+  .search-form {
+    padding-right: 20px;
+  }
 }

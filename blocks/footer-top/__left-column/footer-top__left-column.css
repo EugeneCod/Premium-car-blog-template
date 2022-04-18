@@ -1,4 +1,10 @@
 .footer-top__left-column {
-  grid-column: 2/3;
-  padding-right: 129px;
+  grid-column: 1/2;
+  max-width: 285px;
+}
+
+@media (max-width:1231px) {
+  .footer-top__left-column {
+    
+  } 
 }

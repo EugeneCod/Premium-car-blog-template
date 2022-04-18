@@ -1,3 +1,5 @@
 .logo_place_header {
   justify-self: start;
+  z-index: 1;
+  flex: 0 1 33.33%;
 }

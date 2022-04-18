@@ -1,10 +1,12 @@
 .main-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-top: 90px;
 }
 
 @media (max-width:1231px) {
   .main-content {
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 70px;
   } 
 }

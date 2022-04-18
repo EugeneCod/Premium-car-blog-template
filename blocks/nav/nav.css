@@ -1,7 +1,6 @@
 .nav {
-  width: 368px;
-  display: flex;
-  justify-content: space-between;
+  min-width: 340px;
+  /* display: flex;
+  justify-content: space-between; */
   font-family: PT Sans, Arial, sans-serif;
 }
-

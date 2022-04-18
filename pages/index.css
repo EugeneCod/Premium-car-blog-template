@@ -1,11 +1,14 @@
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/wrapper/wrapper.css);
+
 @import url(../blocks/link-effect/link-effect.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__body/header__body.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger-item/header__burger-item.css);
+@import url(../blocks/header/__menu-container/header__menu-container.css);
 
 @import url(../blocks/container/container.css);
 
@@ -19,6 +22,8 @@
 @import url(../blocks/nav/_place/nav_place_footer-bottom.css);
 @import url(../blocks/nav/_place/nav_place_header.css);
 @import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list-item/nav__list-item.css);
 
 @import url(../blocks/search-form/search-form.css);
 @import url(../blocks/search-form/_place/search-form_place_header.css);
@@ -113,6 +118,7 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/footer-top/footer-top.css);
+@import url(../blocks/footer-top/__body/footer-top__body.css);
 @import url(../blocks/footer-top/__center-column/footer-top__center-column.css);
 @import url(../blocks/footer-top/__left-column/footer-top__left-column.css);
 @import url(../blocks/footer-top/__right-column/footer-top__right-column.css);
@@ -124,6 +130,7 @@
 @import url(../blocks/footer-top/__instagram-icon/footer-top__instagram-icon.css);
 
 @import url(../blocks/footer-bottom/footer-bottom.css);
+@import url(../blocks/footer-bottom/__body/footer-bottom__body.css);
 @import url(../blocks/footer-bottom/__copiright/footer-bottom__copiright.css);
 
 @import url(../blocks/italic/italic.css);
