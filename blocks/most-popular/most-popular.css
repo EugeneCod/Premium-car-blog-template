@@ -8,3 +8,9 @@
     grid-column: 1/3;
   } 
 }
+
+/* @media (max-width: 852px) {
+  .most-popular {
+    grid-column: 1/2;
+  }
+} */

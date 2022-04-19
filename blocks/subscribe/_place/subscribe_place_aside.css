@@ -1,9 +1,0 @@
-.subscribe_place_aside {
-
-}
-
-@media (max-width:1231px) {
-  .subscribe_place_aside {
-    grid-column: 2/3;
-  } 
-}

@@ -1,11 +1,17 @@
 .search-form__button {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
   border: none;
-  width: 16px;
-  height: 17px;
-  margin-right: 10px;
+  width: 21px;
+  height: 100%;
+  padding: 0;
 }
 
 .search-form__button:hover {
   cursor: pointer;
+}
+
+@media (max-width: 852px) {
+  .search-form__button {
+    width: 35px;
+  }
 }

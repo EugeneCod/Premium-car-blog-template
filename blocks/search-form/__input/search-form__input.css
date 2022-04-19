@@ -2,3 +2,9 @@
   width: 100%;
   height: fit-content;
 }
+
+@media (max-width: 852px) {
+  .search-form__input {
+    font-size: 1.3rem;
+  }
+}

@@ -1,3 +1,9 @@
 .card_height_2col {
   grid-row: auto/ span 2;
 }
+
+@media (max-width: 601px) {
+  .card_height_2col {
+    grid-row: auto/ span 1;
+  }
+}

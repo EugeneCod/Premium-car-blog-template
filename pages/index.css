@@ -19,11 +19,17 @@
 @import url(../blocks/logo/__text/logo__text.css);
 
 @import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/_place/nav_place_footer-bottom.css);
+@import url(../blocks/nav/_place/nav_place_footer.css);
 @import url(../blocks/nav/_place/nav_place_header.css);
 @import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__link/_place/nav__link_place_header.css);
+@import url(../blocks/nav/__link/_place/nav__link_place_footer.css);
 @import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_place/nav__list_place_header.css);
+@import url(../blocks/nav/__list/_place/nav__list_place_footer.css);
 @import url(../blocks/nav/__list-item/nav__list-item.css);
+@import url(../blocks/nav/__list-item/_place/nav__list-item_place_header.css);
+@import url(../blocks/nav/__list-item/_place/nav__list-item_place_footer.css);
 
 @import url(../blocks/search-form/search-form.css);
 @import url(../blocks/search-form/_place/search-form_place_header.css);
@@ -84,6 +90,7 @@
 
 @import url(../blocks/aside-content/aside-content.css);
 @import url(../blocks/aside-content/__title/aside-content__title.css);
+@import url(../blocks/aside-content/__container/aside-content__container.css);
 
 @import url(../blocks/popular-posts/popular-posts.css);
 
@@ -132,5 +139,6 @@
 @import url(../blocks/footer-bottom/footer-bottom.css);
 @import url(../blocks/footer-bottom/__body/footer-bottom__body.css);
 @import url(../blocks/footer-bottom/__copiright/footer-bottom__copiright.css);
+@import url(../blocks/footer-bottom/__menu-container/footer-bottom__menu-container.css);
 
 @import url(../blocks/italic/italic.css);

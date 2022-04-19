@@ -5,3 +5,9 @@
   margin: 0;
   padding-top: 6px;
 }
+
+@media (max-width: 601px) {
+  .card__heading {
+    font-size: 20px;
+  }
+}

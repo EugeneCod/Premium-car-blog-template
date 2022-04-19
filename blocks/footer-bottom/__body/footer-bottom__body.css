@@ -5,3 +5,15 @@
   align-content: center;
   height: 100%;
 }
+
+@media (max-width: 852px) {
+  .footer-bottom__body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 585px) {
+  .footer-bottom__body {
+    grid-template-columns: 1fr;
+  }
+}

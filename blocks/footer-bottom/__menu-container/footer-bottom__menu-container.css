@@ -1,0 +1,17 @@
+.footer-bottom__menu-container {
+  justify-self: end;
+  grid-column: 3/4;
+}
+
+@media (max-width: 852px) {
+  .footer-bottom__menu-container {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 585px) {
+  .footer-bottom__menu-container {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+}

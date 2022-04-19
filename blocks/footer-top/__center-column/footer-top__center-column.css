@@ -1,5 +1,4 @@
 .footer-top__center-column {
-  grid-column: 2/3;
   justify-self: center;
 }
 
@@ -7,4 +6,10 @@
   .footer-top__center-column {
   
   } 
+}
+
+@media (max-width: 585px) {
+  .footer-top__center-column {
+    justify-self: start;
+  }
 }

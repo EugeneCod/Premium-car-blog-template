@@ -9,8 +9,12 @@
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(15 100px);
-    grid-auto-rows: 100px;
     column-gap: 15px;
   } 
+}
+
+@media (max-width: 585px) {
+  .aside-content {
+    grid-template-columns: 1fr;
+  }
 }
