@@ -15,3 +15,9 @@
 .page-switcher__link:active {
   box-shadow: inset 1px 1px 3px 0px #171717;
 }
+
+@media (max-width: 364px) {
+  .page-switcher__link {
+    line-height: 30px;
+  }
+}

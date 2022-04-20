@@ -1,3 +1,9 @@
 .footer-top__cards {
   padding: 28px 0 0 0;
 }
+
+@media (max-width: 585px) {
+  .footer-top__cards {
+    padding: 15px 0 0 0;
+  }
+}

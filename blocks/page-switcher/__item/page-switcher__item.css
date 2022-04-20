@@ -10,3 +10,10 @@
   color: #171717;
   text-align: center;
 }
+
+@media (max-width: 364px) {
+  .page-switcher__item {
+    width: 30px;
+  height: 30px;
+  }
+}

@@ -11,5 +11,6 @@
 @media (max-width: 585px) {
   .footer-top__center-column {
     justify-self: start;
+    padding-top: 40px;
   }
 }

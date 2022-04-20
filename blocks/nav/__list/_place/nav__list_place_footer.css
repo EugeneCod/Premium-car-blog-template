@@ -1,0 +1,5 @@
+@media (max-width: 390px) {
+  .nav__list_place_footer {
+    justify-content: center;
+  }
+}

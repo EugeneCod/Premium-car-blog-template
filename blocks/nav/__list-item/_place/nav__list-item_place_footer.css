@@ -1,0 +1,5 @@
+@media (max-width: 390px) {
+  .nav__list-item_place_footer {
+    padding-right: 15px;
+  }
+}

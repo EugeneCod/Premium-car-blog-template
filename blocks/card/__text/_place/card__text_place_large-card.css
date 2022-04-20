@@ -8,3 +8,10 @@
   height: auto;
   box-shadow: 0 0 5px -2px gray;
 }
+
+@media (max-width:600px) {
+  .card__text_place_large-card {
+    padding: 10px;
+  } 
+}
+

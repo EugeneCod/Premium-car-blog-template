@@ -7,3 +7,9 @@
     justify-self: start;
   } 
 }
+
+@media (max-width: 585px) {
+  .footer-top__right-column {
+    padding-top: 40px;
+  }
+}

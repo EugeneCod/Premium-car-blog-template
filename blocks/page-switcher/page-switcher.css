@@ -9,3 +9,10 @@
   grid-template-rows: 40px;
   gap: 10px;
 }
+
+@media (max-width: 364px) {
+  .page-switcher {
+    padding-bottom: 50px;
+    grid-template-columns: repeat(7, 30px);
+  }
+}
