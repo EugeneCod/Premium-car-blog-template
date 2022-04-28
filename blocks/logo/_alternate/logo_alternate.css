@@ -1,0 +1,12 @@
+.logo_alternate {
+  display: block;
+  flex: 0 1 20%;
+  max-width: 150px;
+  z-index: 1;
+}
+
+@media (max-width: 852px) {
+  .logo_alternate {
+    display: none;
+  }
+}

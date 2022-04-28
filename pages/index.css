@@ -15,6 +15,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_alternate/logo_alternate.css);
 @import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/logo/__text/logo__text.css);
 

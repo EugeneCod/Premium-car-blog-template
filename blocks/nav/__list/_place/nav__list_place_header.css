@@ -1,5 +1,5 @@
 .nav__list_place_header {
-
+  justify-content: center;
 }
 
 @media (max-width: 852px) {

@@ -1,5 +1,12 @@
 .logo_place_header {
-  justify-self: start;
+  /* justify-self: start; */
   z-index: 1;
-  flex: 0 1 33.33%;
+  /* flex: 0 1 33.33%; */
+  display: none;
+}
+
+@media (max-width: 852px) {
+  .logo_place_header {
+    display: block;
+  }
 }
