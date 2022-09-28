@@ -1,2 +1,13 @@
 # Premium-car-blog-template
-This is my first project in which I tried to implement adaptive layout
+[Ознакомительная ссылка](https://eugenecod.github.io/Premium-car-blog-template)
+
+## :scroll: Описание
+* Это личный учебный проект.
+* Представляет собой одностраничный сайт-шаблон текстового блога на автомобильную тематику.
+* В данной работе по методу __Desktop First__ реализована адаптивная верстка страницы для устройств c базовой шириной экранов от 320px до 1650px, включая адаптивное навигационное меню.
+
+## :toolbox: В работе применяются:
+* HTML
+* CSS
+* БЭМ методология
+* JS
